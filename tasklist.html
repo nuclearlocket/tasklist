@@ -1,0 +1,74 @@
+<!doctype html>
+	<head>
+		<meta charset="utf-8">
+		<title>Task List - With download and upload</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Oxygen|Roboto|Exo+2|Tomorrow&display=swap">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
+		<script src="basic.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<div class="errormessages txt_large">
+			</div>
+			
+				<div class="content-box">
+					<div class="paddingbox" id="txtcontent">
+					
+						<h1 class="text-center shadow">Tasklist</h1>
+						
+						<div class="newtaskgroupfield">
+							<input class="new_group_input" id="new_group_nm" name="new_group_name" placeholder="New Task Group" value=""/><br>
+							<button id="new_group_sub" class="btn widthfull">Add Group</button>
+						</div>
+						
+						<div class="newtaskfield">
+							<input class="new_task_input" id="new_task_nm" name="new_task_name" placeholder="New Task" value=""/><br>
+							<button id="new_task_sub" class="btn widthfull">Add Task</button>
+						</div>
+						<br>
+						<div class="groupselection">
+							<h3 class="element-center text-center">Select Group</h3>
+							<select id="groupselect">
+							</select>
+						</div>
+						<button id="download_buff" class="btn widthfull green">Download here before closing</button>
+						<br>
+						<div id="drop-area" class="drop-area-style">Drop Previous file here</div>
+						<br>
+						
+						<div class="taskcontainer">
+
+							<div class="stripe"></div>
+							<div class="sub-group text-center" id="asdasdsadhphn98">Do this tomorrow</div>
+							<div class="stripe"></div>
+							
+							<div class="task" id="YDxqjOzZObXxSXOCdVbSgjmDYjcGjeEN">
+								<div class="task-inside">
+									<input type="checkbox" class="check">
+									<div class="count"></div>
+									<div class="tasktext">
+									Bananas.
+									</div>
+								</div>
+								<div class="stripe"></div>
+							</div>
+							
+							
+							<div class="task"  id="OnBmgIfNCvNTagOTJisBGdXmJDikodCz">
+								<div class="task-inside">
+									<input type="checkbox" class="check">
+									<div class="count"></div>
+									<div class="tasktext">
+									Potatos.
+									</div>
+								</div>
+								<div class="stripe"></div>
+							</div>
+							
+						</div>
+					</div>
+				</div>
+		</div>
+	</body>
+</html>
